@@ -1,6 +1,6 @@
 # Robo Rumble 2026: Elimination Round Submission
 **Category:** Robo Grand Prix (Autonomous Racing)
-**Team/Competitor:** Mathurin Nimrod Moundzika-Kibamba
+**Team/Competitor:** Mathurin Moundzika-Kibamba and Ayanda Tshabangu
 
 ## High-Level Project Summary
 This repository contains the complete engineering, design, and software architecture for a fully autonomous racing robot built for the Robo Grand Prix category. Per the universal design constraints, the physical vehicle is designed to weigh under 5 kg and fit within a 50 cm x 50 cm footprint[cite: 1]. 
