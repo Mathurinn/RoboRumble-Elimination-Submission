@@ -5,6 +5,7 @@
 The electronic architecture relies on an STM32 Blue Pill microcontroller interfacing with a TB6612FNG motor driver, stepping down power via a custom distribution board.
 
 * **[Proteus Schematic](../Schematics/Proteus_Screenshot.png):** This diagram details the physical routing of the PCB. **CRITICAL SAFETY NOTE:** The mandatory Emergency Stop (E-Stop) button and the main ON/OFF latching switch are explicitly annotated here, demonstrating how they physically interrupt the motor driver power loop.
+* **[Raw Proteus Project File](../Schematics/RoboGrandPrix_Chassis_Schematic.pdsprj):** The original CAD project file is included for complete transparency and deep technical review of the PCB routing, layers, and component footprints.
 * **[Wokwi Logic Map](../Schematics/Wokwi_Screenshot.png):** Demonstrates the I2C bus wiring (IMU, INA219, ToF sensors) and the encoder feedback loops used for our PID state-machine simulation.
 
 
