@@ -1,5 +1,7 @@
 ### Mechanical Design
 
+* **[Raw CAD Assembly Files](./APEX1.zip):** The original 3D CAD file (.step), compressed, is included for complete transparency regarding our mechanical architecture, dimensional tolerances, and 3D printing feasibility.
+
 **Chassis Architecture & 3D Printing**
 The vehicle uses a custom-designed, two piece chassis (base tub and top lid) which is fabricated using 3D printing. The shell is printed using a tri-hexagonal infill pattern which provides a better strength-to-weight density compared to standard grid infills. This helps balance structural integrity and economic feasibility. The chassis density is reduced to 15% to keep the chassis economically viable while maintaining a low chance of chipping. Localized areas supporting the hardware components are printed at a density of 20-25% to ensure that the threads and pillars are able to withstand mechanical stress and maintain a stable centre of gravity.
 <img width="982" height="766" alt="Screenshot 2026-09-05 193945" src="https://github.com/user-attachments/assets/44898105-20d2-4f5d-9a1e-de652634428d" />
