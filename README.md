@@ -1,9 +1,9 @@
 # Robo Rumble 2026: Elimination Round Submission
 **Category:** Robo Grand Prix (Autonomous Racing)
-**Team/Competitor:** Mathurin Moundzika-Kibamba and Ayanda Tshabangu
+**Team:** Team Apex (Mathurin Moundzika-Kibamba and Ayanda Tshabangu)
 
-## High-Level Project Summary
-This repository contains the complete engineering, design, and software architecture for a fully autonomous racing robot built for the Robo Grand Prix category. Per the universal design constraints, the physical vehicle is designed to weigh under 5 kg and fit within a 50 cm x 50 cm footprint[cite: 1]. 
+## Project Summary
+This repository contains the complete engineering, design, and software architecture for a fully autonomous racing robot for the Robo Grand Prix category. Per the universal design constraints, the physical vehicle is designed to weigh under 5 kg and fit within a 50 cm x 50 cm footprint[cite: 1]. 
 
 To adhere strictly to the category rules, the vehicle is 100% autonomous with no remote control or human intervention[cite: 1]. The initial prototype design evaluated Time-of-Flight (TOF) sensor algorithms for wall-following in a Unity physics simulation. Based on the simulation data, the final electronic architecture justifies a transition to a camera-based ROS2 vision system integrated with an STM32 microcontroller to ensure accurate lane-heading on wide track segments. The physical build features a mandatory external ON/OFF switch and an integrated Emergency Stop (E-Stop) mechanism[cite: 1].
 
